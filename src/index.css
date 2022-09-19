@@ -3,6 +3,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIlR0W2c_5yIz5-bywBOVAdNibD6eioMq1sKkQUONtoqvbCPd1n1zcO5A3WusCmbyAVvM&usqp=CAU');
+  background-repeat: round;
 }
 
 code {

@@ -1,8 +1,23 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavrBarRender from './components/navBarComponent';
+import Main from './components/mainComponent';
+import Footer from './components/footerComponent';
+
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">asdf</header>
-        </div>
+        <BrowserRouter>
+            <NavrBarRender />
+
+            {/*******ROUTES*********/}
+            <div className="container bg-light">
+                <Routes>
+                    <Route path="/" element={<Main />} />
+                </Routes>
+            </div>
+
+            {/*******FOOTER*********/}
+            <Footer />
+        </BrowserRouter>
     );
 }
 
