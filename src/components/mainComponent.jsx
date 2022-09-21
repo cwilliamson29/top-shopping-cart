@@ -1,5 +1,4 @@
 import '../assets/css/main.css';
-import img from '../assets/img/bg-main.jpg';
 
 export default function Main() {
 	const mainStyle = {
@@ -8,8 +7,10 @@ export default function Main() {
 		backgroundSize: 'auto',
 	};
 	return (
-		<div style={mainStyle} className="mainHeader">
-			<h1></h1>
+		<div className="mainHeader">
+			<div style={mainStyle} className="announcements">
+				<h1></h1>
+			</div>
 		</div>
 	);
 }

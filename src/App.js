@@ -9,7 +9,7 @@ function App() {
             <NavrBarRender />
 
             {/*******ROUTES*********/}
-            <div className="container">
+            <div className="container bg-light">
                 <Routes>
                     <Route path="/" element={<Main />} />
                 </Routes>
