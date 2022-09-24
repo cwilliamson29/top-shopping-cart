@@ -122,3 +122,62 @@
 	width: 33% !important;
 	padding-left: 10px;
 }
+.mobiCartMain {
+	border: 2px dotted red;
+	width: 100%;
+	padding: 5px;
+}
+.mobiCartView {
+	border-bottom: 2px dotted red;
+	width: 95%;
+	padding: 5px;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mobiCartViewLeft {
+	width: 50%;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 15px;
+}
+.mobiCartViewRight {
+	width: 50%;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: right;
+	position: relative;
+}
+.mobiCartViewRight span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.checkout {
+	border: 2px dotted black;
+	width: 90%;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.checkout:hover {
+	border: 2px dotted red;
+	color: red;
+	background-color: black;
+}
+.mobiCartProducts {
+	border: 2px dotted grey;
+	width: 95%;
+	padding: 5px;
+	min-height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
