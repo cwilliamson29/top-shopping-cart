@@ -1,15 +1,24 @@
 import '../assets/css/main.css';
+import { products } from './data/products';
 
 export default function Main() {
-	const mainStyle = {
-		backgroundImage: 'url(https://iili.io/iOqfSV.jpg)',
-		backgroundRepeat: 'no-repeat',
-		backgroundSize: 'auto',
-	};
 	return (
 		<div className="mainHeader">
-			<div style={mainStyle} className="announcements">
-				<h1></h1>
+			<div className="announcements">
+				<div className="annouceTitle">The best prices. The Best Gear.</div>
+				<div className="annouceShop">SHOP NOW</div>
+			</div>
+			<div>
+				{products.map((item, i) => {
+					return (
+						<div>
+							<img src={item.img} alt={item.name} />
+							<h1>{item.name}</h1>
+							<p>{item.price}</p>
+							<p>{item.desc}</p>
+						</div>
+					);
+				})}
 			</div>
 		</div>
 	);

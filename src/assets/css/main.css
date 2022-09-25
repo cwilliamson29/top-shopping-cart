@@ -1,9 +1,42 @@
 .mainHeader {
-	margin-top: -8px;
+	margin-top: 0px;
 }
 .announcements {
 	width: 98%;
-	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
+	background-image: url(https://as1.ftcdn.net/v2/jpg/03/52/21/48/1000_F_352214843_dQ3JtTJrKyqrh2yd1emYCDPSrzrwqaNK.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: center;
+	overflow: hidden;
+	background-color: pink;
+}
+@media only screen and (max-width: 430px) {
+	.annouceTitle {
+		margin-top: 25px;
+		padding: 10px;
+		width: 75%;
+		background-color: rgba(100, 100, 100, 0.4);
+		color: black;
+		font-size: 14px;
+		font-weight: bold;
+		font-family: verdana;
+		border-top-right-radius: 9px;
+		border-bottom-right-radius: 9px;
+	}
+
+	.annouceShop {
+		margin-top: 110px;
+		width: 100%;
+		padding: 9px;
+		background-color: white;
+		color: black;
+		font-family: verdana;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		border-top-left-radius: 100%;
+		border-top-right-radius: 100%;
+	}
 }
