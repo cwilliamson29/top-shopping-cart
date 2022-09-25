@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { AiFillCloseSquare } from 'react-icons/ai';
+import '../../assets/css/cartView.css';
 
 const SideBarNav = styled.div`
 	background: #d3d3d3;
@@ -47,7 +48,7 @@ export default function CartViewRender({ cartView, setCartView, size }) {
 	return (
 		<div style={{ position: 'fixed' }}>
 			<Overlay cartView={cartView} onClick={() => setCartView(!cartView)} />
-			<SideBarNav cartView={cartView} size={size}>
+			<SideBarNav cartView={cartView} size={size} className="cartViewSize">
 				<h1 onClick={() => setCartView(!cartView)}>
 					<AiFillCloseSquare size="1em" />
 				</h1>

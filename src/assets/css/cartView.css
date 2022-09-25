@@ -1,0 +1,30 @@
+@media only screen and (max-width: 576px) {
+	.cartViewSize {
+		width: 90%;
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	.cartViewSize {
+		width: 60%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.cartViewSize {
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.cartViewSize {
+		width: 40%;
+	}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+	.cartViewSize {
+		width: 35%;
+	}
+}
+@media only screen and (min-width: 1400px) {
+	.cartViewSize {
+		width: 450px;
+	}
+}
