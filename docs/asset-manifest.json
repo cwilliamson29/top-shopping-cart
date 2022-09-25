@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.82c7285f.css",
-    "main.js": "/static/js/main.e1fa4c79.js",
-    "static/media/logo.png": "/static/media/logo.b23c63e3888fa7710e57.png",
-    "index.html": "/index.html",
-    "main.82c7285f.css.map": "/static/css/main.82c7285f.css.map",
-    "main.e1fa4c79.js.map": "/static/js/main.e1fa4c79.js.map"
+    "main.css": "/top-shopping-cart/static/css/main.82c7285f.css",
+    "main.js": "/top-shopping-cart/static/js/main.14c8deeb.js",
+    "static/media/logo.png": "/top-shopping-cart/static/media/logo.b23c63e3888fa7710e57.png",
+    "index.html": "/top-shopping-cart/index.html",
+    "main.82c7285f.css.map": "/top-shopping-cart/static/css/main.82c7285f.css.map",
+    "main.14c8deeb.js.map": "/top-shopping-cart/static/js/main.14c8deeb.js.map"
   },
   "entrypoints": [
     "static/css/main.82c7285f.css",
-    "static/js/main.e1fa4c79.js"
+    "static/js/main.14c8deeb.js"
   ]
 }
