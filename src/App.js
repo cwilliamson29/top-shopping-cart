@@ -11,7 +11,7 @@ function App() {
             {/*******ROUTES*********/}
             <div className="container bg-light">
                 <Routes>
-                    <Route path="/" element={<Main />} />
+                    <Route path="/top-shopping-cart" element={<Main />} />
                 </Routes>
             </div>
 
